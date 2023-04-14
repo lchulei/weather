@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" styleClass="pane" stylesheets="@css/dark.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab.PrimaryController">
+   <children>
+      <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="15 червня" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets bottom="360.0" right="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label alignment="CENTER" layoutX="196.0" layoutY="201.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="Перше значення:" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets bottom="320.0" right="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="48.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="Друге значення:" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets bottom="220.0" right="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="15 листопада" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets bottom="360.0" left="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="Перше значення:" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets bottom="320.0" left="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="Друге значення:" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets bottom="220.0" left="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="Третє значення:" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets bottom="120.0" left="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label alignment="CENTER" layoutX="148.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="250.0" text="Оберіть опцію порівняння результатів:" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets />
+         </StackPane.margin>
+      </Label>
+      <TextField fx:id="juneFirstValue" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Введіть ймовірність" styleClass="textField">
+         <StackPane.margin>
+            <Insets bottom="270.0" right="200.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="juneSecondValue" layoutX="135.0" layoutY="72.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Введіть ймовірність" styleClass="textField">
+         <StackPane.margin>
+            <Insets bottom="170.0" right="200.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="novemberFirstValue" layoutX="135.0" layoutY="110.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Введіть ймовірність" styleClass="textField">
+         <StackPane.margin>
+            <Insets bottom="270.0" left="200.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="novemberSecondValue" layoutX="135.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Введіть ймовірність" styleClass="textField">
+         <StackPane.margin>
+            <Insets bottom="170.0" left="200.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="novemberThirdValue" layoutX="135.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Введіть ймовірність" styleClass="textField">
+         <StackPane.margin>
+            <Insets bottom="70.0" left="200.0" />
+         </StackPane.margin>
+      </TextField>
+      <RadioButton fx:id="moreDefined" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Більш визначений">
+         <StackPane.margin>
+            <Insets top="50.0" />
+         </StackPane.margin>
+      </RadioButton>
+      <RadioButton fx:id="moreUndefined" layoutX="149.0" layoutY="201.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Більш невизначений">
+         <StackPane.margin>
+            <Insets top="100.0" />
+         </StackPane.margin>
+      </RadioButton>
+      <Button fx:id="calculateEntropy" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#calculateEntropy" prefHeight="25.0" prefWidth="100.0" text="Обчислити">
+         <StackPane.margin>
+            <Insets top="150.0" />
+         </StackPane.margin>
+      </Button>
+      <Label fx:id="errorMessage" alignment="CENTER" layoutX="85.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="350.0" textAlignment="CENTER" visible="false">
+         <StackPane.margin>
+            <Insets top="200.0" />
+         </StackPane.margin>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="35.0" layoutY="88.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="Ентропія для 15 червня:" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets right="150.0" top="250.0" />
+         </StackPane.margin>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="135.0" layoutY="197.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" text="Ентропія для 15 листопада:" textAlignment="CENTER">
+         <StackPane.margin>
+            <Insets right="150.0" top="310.0" />
+         </StackPane.margin>
+      </Label>
+      <TextField fx:id="entropyJune" editable="false" layoutX="235.0" layoutY="162.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" styleClass="textField">
+         <StackPane.margin>
+            <Insets left="155.0" top="250.0" />
+         </StackPane.margin>
+      </TextField>
+      <TextField fx:id="entropyNovember" editable="false" layoutX="210.0" layoutY="323.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" styleClass="textField">
+         <StackPane.margin>
+            <Insets left="155.0" top="310.0" />
+         </StackPane.margin>
+      </TextField>
+   </children>
+</StackPane>

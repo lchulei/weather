@@ -1,0 +1,45 @@
+.textField {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-color: #282828;
+    -fx-text-fill: #ffeeaa;
+}
+
+.button {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-background-color: #3f3f3f;
+    -fx-text-fill: #ffeeaa;
+}
+
+.pane {
+    -fx-background-image: url("loginBG.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 400 400;
+    -fx-background-position: center center;
+}
+
+.label {
+    -fx-text-fill: #ffeeaa;
+}
+
+.paneBorders {
+    -fx-border-width: 1;
+    -fx-border-color: #ffeeaa;
+}
+
+.shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.radio-button {
+    -fx-text-fill: #ffeeaa;
+}
+
+.radio-button .radio {
+    -fx-background-color: #282828;
+}
+
+.radio-button:selected .dot {
+    -fx-mark-color: #ffeeaa;
+}
